@@ -31,7 +31,8 @@
 
  **Note:** Due to multiple login attempts during the automation process, the Flipkart account used for testing has been temporarily blocked for 24 hours. As a result, further automation scenarios cannot be executed until the account is unblocked. This highlights the importance of implementing a rate limit for login attempts in the automation framework to prevent such issues in the future.
 
-### Setup instruction <br> **git clone:** https://github.com/Manisha-Rana12/FlipkartAutomationFramework.git
+### Setup instruction <br>
+- **git clone:** https://github.com/Manisha-Rana12/FlipkartAutomationFramework.git
 cd FlipkartAutomationFramework
 
 
