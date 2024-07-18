@@ -1,25 +1,25 @@
-"#FlipkartAutomationFramework"
-This project is a Selenium-based web automation framework designed to automate various functionalities on the Flipkart website. It utilizes the Cucumber BDD framework, Page Object Model (POM) design pattern.
+# FlipkartAutomationFramework
+### This project is a Selenium-based web automation framework designed to automate various functionalities on the Flipkart website. It utilizes the Cucumber BDD framework, Page Object Model (POM) design pattern.
 
-Features
+## Features
 
-Cucumber BDD Framework: For writing test scenarios in a human-readable format.
-Page Object Model (POM): For organizing and maintaining the codebase.
-Logging: Provides detailed logs for debugging purposes.
+- Cucumber BDD Framework: For writing test scenarios in a human-readable format.
+- Page Object Model (POM): For organizing and maintaining the codebase.
+- Logging: Provides detailed logs for debugging purposes.
 
-Prerequisites
-Java JDK 8 or higher
-Maven
-Selenium WebDriver
-Cucumber
-TestNG
-WebDriverManager
-A valid Flipkart account for testing
+## Prerequisites
+- Java JDK 8 or higher
+- Maven
+- Selenium WebDriver
+- Cucumber
+- TestNG
+- WebDriverManager
+- A valid Flipkart account for testing
 
-Scenario: Add invalid quantity to cart
-Given I am on the product details page for a specific phone
-When I try to add the product to the cart with quantity -1
-Then I should see an error message indicating invalid quantity
+**Scenario:** Add invalid quantity to cart
+**Given** I am on the product details page for a specific phone
+**When** I try to add the product to the cart with quantity -1
+**Then** I should see an error message indicating invalid quantity
  
  Note: This scenario cannot be automated on Flipkart as the platform does not allow negative quantities in the quantity field, and such invalid inputs are restricted at the frontend level. This limitation is due to the platform's validation that prevents adding negative quantities.
 
