@@ -22,7 +22,7 @@
   - feature file
   <br>
   <br>
-  ![Screenshot 2024-07-18 204111](https://github.com/user-attachments/assets/459e021f-c110-4119-a19f-b81388dc0796)
+   ![Screenshot 2024-07-18 204111](https://github.com/user-attachments/assets/459e021f-c110-4119-a19f-b81388dc0796)
   <br><br>
     
 **Scenario:** Add invalid quantity to cart
