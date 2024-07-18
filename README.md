@@ -15,7 +15,13 @@
 - TestNG
 - WebDriverManager
 - A valid Flipkart account for testing
-
+  ## Project structure:
+  - page object
+  - stepDefinition
+  - testRunner
+  - feature file
+    <br>
+    ![Screenshot 2024-07-18 204111](https://github.com/user-attachments/assets/459e021f-c110-4119-a19f-b81388dc0796)
 **Scenario:** Add invalid quantity to cart
 **Given** I am on the product details page for a specific phone
 **When** I try to add the product to the cart with quantity -1
