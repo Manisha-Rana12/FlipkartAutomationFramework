@@ -26,7 +26,9 @@
    - Set up Cucumber feature files and step definitions.
    - Configured the Cucumber runner class for executing tests.
 ## Test Cases
-   - Test Case 1: Login Functionality <br>
+   - Test Case 1: Login Functionality
+    <br>
+   
    **Description:** To verify login functionality with valid credential
 
    **Steps:**
@@ -34,7 +36,20 @@
    - Enter valid credentials.
    - Click on the login button.
    - Verify that the user is redirected to the dashboard.
-     
+
+     **Status:** PASS 
+   - Test Case 2: Verify Product Search and Price Sorting Functionality
+     <br><br>
+    **Description:** To verify search functionality by entering product details and sorting the price from Low to High and 
+                      verify the first product price is minimum.
+
+     **Steps:**
+     - open the application
+     - search for a product
+     - Select the option to sort by price from low to high
+     - Verify that the first product's price is the minimum among all displayed prices
+
+     **Status:** PASS
   ## Project structure:
   - page object
   - stepDefinition
