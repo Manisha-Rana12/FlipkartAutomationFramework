@@ -37,7 +37,8 @@
    - Click on the login button.
    - Verify that the user is redirected to the dashboard.
 
-     **Status:** PASS 
+     **Status:** PASS
+     
    - Test Case 2: Verify Product Search and Price Sorting Functionality
      <br><br>
     **Description:** To verify search functionality by entering product details and sorting the price from Low to High and 
@@ -50,6 +51,20 @@
      - Verify that the first product's price is the minimum among all displayed prices
 
      **Status:** PASS
+     
+     - Test Case 3: Add Products to Wishlist from Search Results Pages
+       <br><br>
+   **Description:**  To verifies that the user can iterate through the first 5 product pages on the search results for 
+                       "Men's Watches" and add each product to the wishlist.
+
+       **Steps:**
+     - Enter "Men's Watches" in the search bar
+     - Click on the search button or press Enter
+     - Add the product to wishlist
+     - Navigate to the next 5 pages and add one product to wishlist
+
+     **Status:** PASS
+     
   ## Project structure:
   - page object
   - stepDefinition
