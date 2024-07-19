@@ -25,6 +25,16 @@
 3. Cucumber Integration:
    - Set up Cucumber feature files and step definitions.
    - Configured the Cucumber runner class for executing tests.
+## Test Cases
+   - Test Case 1: Login Functionality <br>
+   **Description:** To verify login functionality with valid credential
+
+   **Steps:**
+   - Open the application.
+   - Enter valid credentials.
+   - Click on the login button.
+   - Verify that the user is redirected to the dashboard.
+     
   ## Project structure:
   - page object
   - stepDefinition
