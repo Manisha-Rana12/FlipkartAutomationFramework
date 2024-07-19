@@ -15,6 +15,16 @@
 - TestNG
 - WebDriverManager
 - A valid Flipkart account for testing
+## Integration Process
+1. Project Setup:
+   - Created a new Maven project.
+   - Added necessary dependencies in the pom.xml file
+2. Framework Structure:
+   - Implemented the Page Object Model (POM) for better code management.
+   - Created separate packages for test cases, page objects, utilities, and configurations.
+3. Cucumber Integration:
+   - Set up Cucumber feature files and step definitions.
+   - Configured the Cucumber runner class for executing tests.
   ## Project structure:
   - page object
   - stepDefinition
